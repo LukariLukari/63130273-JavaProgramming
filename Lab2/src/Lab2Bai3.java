@@ -20,7 +20,8 @@ public class Lab2Bai3 {
 			System.out.printf("Tiền điện là: %.1f",sodien*1000);
 		}
 		else {
-		
+			System.out.printf("Tiền điện là: %.1f", 50*1000+(sodien-50)*1200);
+		}
 	}
 
 }
